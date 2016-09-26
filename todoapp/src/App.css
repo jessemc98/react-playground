@@ -22,3 +22,25 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.TodoApp {
+  width: 300px;
+  min-height: 400px;
+  margin: 20px auto;
+  padding: 1rem;
+  background: #999;
+}
+
+.TodoApp li {
+  width: 95%;
+  line-height: 2rem;
+  list-style-type: none;
+  background: #eee;
+  margin-bottom: 0.2rem;
+  border-radius: 1rem;
+}
+
+.TodoApp li button{
+  float: right;
+  margin: 0.6em 2em; 
+}
