@@ -1,0 +1,20 @@
+.frame.starFrame {
+	background: yellow;
+}
+.frame > .star {
+	background: black;
+}
+
+.frame > .number, .frame > .chooseNumber {
+	background: #333;
+	color: white;
+	text-align: center;
+	line-height: 60px;
+	border-radius: 50%;
+}
+.frame > .number:hover, .frame > .chooseNumber:hover{
+	background: #555;
+}
+.frame.chooseNumberFrame {
+	width: 85%;
+} 
