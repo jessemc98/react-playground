@@ -1,0 +1,15 @@
+#root {
+  max-width: 960px;
+  margin: auto;
+}
+
+nav {
+  font-size: 2em;
+  padding: 1rem;
+  margin-top: 20px;
+}
+
+nav > a {
+  margin: 0 1rem;
+  text-decoration: underline;
+}
