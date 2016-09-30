@@ -21,7 +21,7 @@ export function loadCourses() {
       dispatch(loadCoursesSuccess(courses))
     }).catch(err => {
       dispatch(ajaxError())
-      throw(error)
+      throw(err)
     })
   }
 }
