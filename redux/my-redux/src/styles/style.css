@@ -11,5 +11,8 @@ nav {
 
 nav > a {
   margin: 0 1rem;
+}
+nav > a.active {
+  color: darkblue;
   text-decoration: underline;
 }
